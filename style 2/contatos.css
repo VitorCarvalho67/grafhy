@@ -1,0 +1,187 @@
+@import url("style.css");
+  
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+main{
+  width: 100%;
+  min-height: 90vh;
+  height: auto;
+  display: flex;
+}
+
+#contato{
+  height: auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.erro{
+  font-size: 12px;
+  color: red;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid var(--color);
+  outline: none;
+  width: 70%;
+  background-color: transparent;
+  padding-left: 3px;
+  color: var(--color);
+  z-index: 1000;
+  padding: 5px;
+  margin: 5px;
+}
+
+.conteudo {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#submit {
+  width: 80%;
+}
+
+input[type = submit]{
+  border: 1px solid var(--color);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type = submit]:hover{
+  color: black;
+  background-color: var(--color);
+  font-weight: bolder;
+  box-shadow: 0 0 7px var(--color);
+}
+
+button[type = submit]{
+  border: 1px solid var(--color);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button[type = submit]:hover{
+  color: black;
+  background-color: var(--color);
+  font-weight: bolder;
+  box-shadow: 0 0 7px var(--color);
+}
+
+#setChave button[type = submit]{
+ width: 80%;
+}
+
+.solicitacoes{
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.d{
+  margin: 0px;
+}
+
+.solicitacoes form{
+  margin-top: 10px;
+}
+
+
+.solicitacoes2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#setChave{
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid var(--color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#btn{
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid var(--color);
+  border-radius: 5px;
+  color: var(--color);
+}
+
+#btn:hover{
+  color: black;
+  background-color: var(--color);
+  font-weight: bolder;
+  box-shadow: 0 0 7px var(--color);
+}
+
+#contatos{
+  width: 60%;
+  height: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+#contato{
+  width: 100%;
+  height: 75px;
+  border: 1px solid var(--color);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#contato a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+#contato:hover{
+  color: black;
+  background-color: var(--color);
+  font-weight: bolder;
+  box-shadow: 0 0 7px var(--color);
+}
+
+#contato:hover a{
+  color: black;
+}
+
+.acr{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.acr button{
+  width: 30%;
+  margin: 5px;
+}
+
+button{
+  margin-top: 5px;
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Monospace';
+    src: url("fonts/font.woff2") format("woff2");
+    font-size: normal;
+    font-weight: normal;
+}
+
+:root{
+  --color: rgb(0, 110, 138);
+  --color2: rgb(26, 26, 26);
+  --fonteColor: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Monospace';
+    background: transparent;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: black;
+}
+
+body{
+    background-color: var(--color2);
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--color);
+    border-bottom: 2px solid var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    color:var(--color2);
+}
+nav div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav div a{
+    text-decoration: none;
+    transition: .2s ease-in-out;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav div a:hover{
+    text-decoration: underline;
+}
+
+p::selection{
+    background-color: var(--fonteColor);
+    color: var(--color2);
+    font-weight: bolder;
+}
+
+input[type = submit]{
+    color: var(--fonteColor);
+    border: 1px solid var(--color);
+    border-radius: 5px;
+}
+
+input[type = submit]:hover{
+    color: var(--fonteColor);
+    background-color: var(--color);
+    box-shadow: 0 0 7px var(--color);
+}
+
+.data{
+    margin-top: 5px;
+    font-size: 11px;
+    width: 100%;
+    text-align: right;
+}
+
+footer{
+    background-color: var(--color);
+    color: var(--color2);
+    width: 100%;
+    height: 10vh;
+    border-top: 2px solid var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+footer p{
+    margin: 5px;
+}
+
+nav div, footer p{
+    color: var(--fonteColor);
+}
+
+nav a, footer a{
+    color: var(--fonteColor);
+}
+
+* p{
+    color: var(--fonteColor);
+}
+
+form label{
+    color: var(--fonteColor);
+}
+
+button *{
+    color: var(--fonteColor);
+}
+
+legend{
+    color: var(--fonteColor);
+}
+
+input{
+    color: var(--fonteColor);
+}
+
+a{
+    color: var(--fonteColor);
+}
+
+.erro{
+    font-size: 14px;
+    color: red;
+  }
